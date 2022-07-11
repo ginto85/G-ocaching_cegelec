@@ -1,0 +1,893 @@
+/* TOOL */
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+html body {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: auto;
+  line-height: 2rem;
+}
+html body .container {
+  max-width: 1024px;
+  margin: auto;
+}
+html body img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+/*CSS for Wave Header*/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
+.content {
+  height: 30vh;
+}
+
+/*HEADER */
+header {
+  height: 30rem;
+}
+header div.bc-image {
+  width: 100%;
+  height: 20rem;
+  background-color: #b3c455;
+  background-image: url("../img/visuel5b.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+header nav {
+  width: 100%;
+  height: 5rem;
+  background-color: #b3c455;
+  margin: 0 0 0.5rem 0;
+}
+header nav ul {
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: #b3c455;
+}
+header nav ul li {
+  padding: 0.5rem 0.7rem;
+  background-color: #89ad87;
+  border: 1px solid rgb(22, 21, 21);
+  border-radius: 5px;
+}
+header nav ul li a {
+  color: whitesmoke;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+section h2.themeTitle {
+  line-height: 4.2rem;
+  color: #f0f0f0;
+  background-color: #89ad87;
+  margin-top: 2rem;
+}
+section h2.AdminTitle {
+  line-height: 4.2rem;
+  color: #f0f0f0;
+  background-color: #89ad87;
+  margin-top: 2rem;
+}
+section h2.mapTitle {
+  line-height: 4.2rem;
+  color: #f0f0f0;
+  background-color: #89ad87;
+  margin-top: 2rem;
+}
+section p.themeParagraph {
+  margin: 0 2rem;
+}
+section article h3 {
+  color: #f0f0f0;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+  border-radius: 5px;
+  background-color: #d0ef23;
+  border: solid 1px #b1acac;
+  line-height: 2.6rem;
+  margin: 1rem 1rem;
+  letter-spacing: 0.2rem;
+}
+section article p {
+  margin: 0;
+}
+section article ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+section article ul li {
+  text-align: left;
+}
+section article ul li p em {
+  color: rgb(16, 218, 26);
+  font-weight: 900;
+  text-shadow: 1px 0 0 #333333, -1px 0 0 rgb(22, 21, 21), 0 1px 0 #333333, 0 -1px 0 #333333, 1px 1px #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
+}
+section article.presentation h1 {
+  padding: 1.2rem 0;
+  font-weight: 700;
+  color: #f0f0f0;
+  background-color: #89ad87;
+}
+section article.presentation ul.rules {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+section article.presentation ul.rules li {
+  width: 30%;
+  margin: 0.3em;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 13px 13px 14px rgb(77, 75, 75);
+}
+section article.presentation ul.rules li h2 {
+  font-size: 1em;
+  text-align: center;
+  margin: auto;
+  padding: 0.5em;
+}
+section article.presentation ul.rules li img.imagesRules {
+  width: 60%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+section article.descriptionGame h2 {
+  line-height: 4rem;
+  background-color: #c0d24d;
+  color: #f0f0f0;
+}
+section article.descriptionGame p {
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+section article.descriptionGame p strong {
+  color: crimson;
+}
+section article.descriptionGame p img {
+  width: 1em;
+}
+section article.descriptionGame p a {
+  color: crimson;
+}
+section article.descriptionGame ol {
+  list-style-type: none;
+  padding: 0;
+}
+section article.descriptionGame ol li {
+  margin: 1rem 0;
+}
+section article.descriptionGame ol li a {
+  color: crimson;
+}
+section article.descriptionGame ol li img {
+  width: 25px;
+}
+section article.descriptionGame ol li:last-child {
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+section article.updateGeocache h3 {
+  line-height: 4rem;
+  background-color: #89ad87;
+  color: rgb(241, 236, 236);
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.updateGeocache div button.currentPosition {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 0.5rem 0.5rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0.5rem;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.updateGeocache div.updateGeoCache-form {
+  width: 90%;
+  margin: auto;
+}
+section article.updateGeocache div.updateGeoCache-form form {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid rgb(22, 21, 21);
+  padding: 20px;
+  background: #dfeb92;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+}
+section article.updateGeocache div.updateGeoCache-form form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 3rem;
+}
+section article.updateGeocache div.updateGeoCache-form form div input {
+  background-color: rgb(232, 240, 254);
+  padding: 0.5rem 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.teamAssignForm {
+  margin: 1rem auto;
+}
+section article.updateGeocache div.updateGeoCache-form form div.teamAssignForm p {
+  margin: 0 0 1rem 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.teamAssignForm p img {
+  width: 25px;
+}
+section article.updateGeocache div.updateGeoCache-form form div.teamAssignForm select {
+  width: 60%;
+  text-align: center;
+  background-color: rgb(232, 240, 254);
+  padding: 0.5rem 0;
+  margin: auto;
+}
+section article.updateGeocache div.updateGeoCache-form form div.themeForm {
+  margin: 1rem auto;
+}
+section article.updateGeocache div.updateGeoCache-form form div.themeForm select {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: rgb(232, 240, 254);
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm {
+  margin: 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm p {
+  margin-top: 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm p img {
+  width: 25px;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div {
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div label {
+  margin: 0 1rem 0 0;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div:last-child {
+  flex-wrap: wrap;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div:last-child p {
+  width: 100%;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div:last-child div {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  background-color: rgb(0, 172, 193);
+  color: #f0f0f0;
+  border: 1px solid rgb(22, 21, 21);
+  border-radius: 5px;
+}
+section article.updateGeocache div.updateGeoCache-form form div.allResponseForm div:last-child div input {
+  margin: 0 0.5rem;
+}
+section article.updateGeocache div.updateGeoCache-form form button {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 1rem 0.5rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0.5rem;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.admin__ajax div {
+  margin: 0 0 1rem 0;
+}
+section article.admin div.admin__ajax div h3 {
+  color: #f0f0f0;
+  background-color: #d0ef23;
+  margin: 1rem 0;
+}
+section article.admin div.admin__ajax button {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 0.5rem 0.5rem;
+  color: #333333;
+  margin: 0.5rem 0.5rem;
+}
+section article.admin div.choiceAdmin article.addTeam h2 {
+  line-height: 4rem;
+  background-color: #89ad87;
+  color: #f0f0f0;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.choiceAdmin article.addTeam div.addTeam-form {
+  width: 90%;
+  margin: auto;
+}
+section article.admin div.choiceAdmin article.addTeam form {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid rgb(22, 21, 21);
+  padding: 20px;
+  background: #dfeb92;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+}
+section article.admin div.choiceAdmin article.addTeam form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 3rem;
+}
+section article.admin div.choiceAdmin article.addTeam form div input {
+  background-color: rgb(232, 240, 254);
+  padding: 0.5rem 0;
+}
+section article.admin div.choiceAdmin article.addTeam form div:nth-child(4) {
+  width: 60%;
+  margin: 1rem auto;
+}
+section article.admin div.choiceAdmin article.addTeam form div:nth-child(4) select {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: rgb(232, 240, 254);
+}
+section article.admin div.choiceAdmin article.addTeam form div:last-child {
+  width: 60%;
+  margin: 1rem auto;
+}
+section article.admin div.choiceAdmin article.addTeam form div:last-child button {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 1rem 0.5rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0.5rem;
+}
+section article.admin div.choiceAdmin article.addGeocache h2 {
+  line-height: 4rem;
+  background-color: #89ad87;
+  color: rgb(241, 236, 236);
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.choiceAdmin article.addGeocache div button.currentPosition {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 0.5rem 0.5rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0.5rem;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form {
+  width: 90%;
+  margin: auto;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid rgb(22, 21, 21);
+  padding: 20px;
+  background: #dfeb92;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 3rem;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div input {
+  background-color: rgb(232, 240, 254);
+  padding: 0.5rem 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.teamAssignForm {
+  margin: 1rem auto;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.teamAssignForm p {
+  margin: 0 0 1rem 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.teamAssignForm p img {
+  width: 25px;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.teamAssignForm select {
+  width: 60%;
+  text-align: center;
+  background-color: rgb(232, 240, 254);
+  padding: 0.5rem 0;
+  margin: auto;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.themeForm {
+  margin: 1rem auto;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.themeForm select {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: rgb(232, 240, 254);
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm {
+  margin: 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm p {
+  margin-top: 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm p img {
+  width: 25px;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div {
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div label {
+  margin: 0 1rem 0 0;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div:last-child {
+  flex-wrap: wrap;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div:last-child p {
+  width: 100%;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div:last-child div {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  background-color: rgb(0, 172, 193);
+  color: #f0f0f0;
+  border: 1px solid rgb(22, 21, 21);
+  border-radius: 5px;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form div.allResponseForm div:last-child div input {
+  margin: 0 0.5rem;
+}
+section article.admin div.choiceAdmin article.addGeocache div.addGeoCache-form form button {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 1rem 0.5rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0.5rem;
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.choiceAdmin article.teamList h3 {
+  line-height: 4rem;
+  background-color: #89ad87;
+  color: rgb(241, 236, 236);
+}
+section article.admin div.choiceAdmin article.teamList div table {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: 1px solid #b1acac;
+  background: #d0ef23;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  margin: 3rem auto;
+}
+section article.admin div.choiceAdmin article.teamList div table thead tr th {
+  border: 1px solid #b1acac;
+}
+section article.admin div.choiceAdmin article.teamList div table tbody tr td {
+  border: 1px solid #b1acac;
+  background-color: #dfeb92;
+}
+section article.admin div.choiceAdmin article.geocacheList div table {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: 1px solid #b1acac;
+  background: #b3c455;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  margin: 3rem auto;
+}
+section article.admin div.choiceAdmin article.geocacheList div table thead tr th {
+  border: 1px solid #b1acac;
+}
+section article.admin div.choiceAdmin article.geocacheList div table tbody tr td {
+  border: 1px solid #b1acac;
+  background-color: #dfeb92;
+}
+section article.admin div.choiceAdmin article.update h3 {
+  line-height: 4rem;
+  background-color: #89ad87;
+  color: rgb(241, 236, 236);
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+section article.admin div.choiceAdmin article.update div.updateGeocache table {
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: 1px solid #b1acac;
+  background: #d0ef23;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  margin: 3rem auto;
+}
+section article.admin div.choiceAdmin article.update div.updateGeocache table thead tr th {
+  border: 1px solid #b1acac;
+}
+section article.admin div.choiceAdmin article.update div.updateGeocache table tbody tr {
+  height: 4rem;
+}
+section article.admin div.choiceAdmin article.update div.updateGeocache table tbody tr td {
+  border: 1px solid #b1acac;
+  background-color: #dfeb92;
+}
+section article.admin div.choiceAdmin article.update div.updateGeocache table tbody tr td a i {
+  font-size: 3rem;
+}
+section article.optimisationTheme {
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  padding: 1.2rem 1.2rem;
+  line-height: 2.5rem;
+  border: 2px solid #b1acac;
+  box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+  -webkit-box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+  -moz-box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+}
+section article.optimisationTheme ul li p:first-letter {
+  font-size: 3rem;
+  vertical-align: top;
+  float: left;
+  padding-right: 0.5em;
+}
+section article.optimisationTheme p strong {
+  color: crimson;
+  font-size: 2rem;
+}
+section article.climateActsTheme {
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  padding: 1.2rem 1.2rem;
+  line-height: 2.5rem;
+  border: 2px solid #b1acac;
+  box-shadow: 0px 0px 12px 12px #fb0540 inset;
+  -webkit-box-shadow: 0px 0px 12px 12px #fb0540 inset;
+  -moz-box-shadow: 0px 0px 12px 12px #fb0540 inset;
+}
+section article.climateActsTheme p strong {
+  color: crimson;
+  font-size: 2rem;
+}
+section article.climateActsTheme p:nth-child(6) {
+  margin-top: 1rem;
+  text-align: left;
+}
+section article.climateActsTheme ul {
+  padding: 0 0 0 1rem;
+}
+section article.climateActsTheme ul li p strong {
+  color: crimson;
+  font-size: 1.5rem;
+}
+section article.climateActsTheme ul li p:first-letter {
+  font-size: 3rem;
+  vertical-align: top;
+  float: left;
+  padding-right: 0.5em;
+}
+section article.climateActsTheme ul li ul {
+  padding: 0 0 0 1.5rem;
+}
+section article.climateActsTheme ul li ul li p strong {
+  color: crimson;
+  font-size: 1.5rem;
+}
+section article.climateActsTheme ul li ul li p:first-letter {
+  font-size: 3rem;
+  vertical-align: top;
+  float: left;
+  padding-right: 0.5em;
+}
+section article.naturalsAreasTheme {
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  padding: 1.2rem 1.2rem;
+  line-height: 2.5rem;
+  border: 2px solid #b1acac;
+  box-shadow: 0px 0px 12px 12px #97bf0d inset;
+  -webkit-box-shadow: 0px 0px 12px 12px #97bf0d inset;
+  -moz-box-shadow: 0px 0px 12px 12px #97bf0d inset;
+}
+section article.naturalsAreasTheme p strong {
+  color: crimson;
+  font-size: 2rem;
+}
+section article.naturalsAreasTheme p em {
+  color: rgb(16, 218, 26);
+  font-weight: 900;
+  text-shadow: 1px 0 0 #333333, -1px 0 0 rgb(22, 21, 21), 0 1px 0 #333333, 0 -1px 0 #333333, 1px 1px #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
+}
+section article.mapPage div.userPosition {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgba(237, 20, 61, 0.4);
+  border: rgb(237, 20, 61) 1px solid;
+  z-index: 999;
+}
+section article.mapPage p {
+  margin-bottom: 1rem;
+}
+section article.mapPage h3 {
+  color: #f0f0f0;
+  background-color: #d0ef23;
+  border-radius: 0;
+  margin: 1rem 0;
+  padding: 0.7rem 0;
+}
+section article.mapPage ul {
+  margin: 1rem;
+}
+section article.mapPage ul li {
+  text-align: center;
+  border: #b1acac 1px solid;
+  border-radius: 5px;
+  border: 2px solid #b1acac;
+  box-shadow: 0px 0px 12px 12px #97bf0d inset;
+  -webkit-box-shadow: 0px 0px 12px 12px #97bf0d inset;
+  -moz-box-shadow: 0px 0px 12px 12px #97bf0d inset;
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
+section article.mapPage ul li button {
+  border-radius: 5px;
+  background-color: #b3c455;
+  padding: 0.5rem 0.5rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+section article.mapPage ul li button.close {
+  display: none;
+}
+section article.mapPage ul li form {
+  display: none;
+}
+section article.mapPage ul li form div.ThemeForm p {
+  font-weight: bolder;
+  margin: 1rem 0 0 0;
+}
+section article.mapPage ul li form div.ThemeForm div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+section article.mapPage ul li form div.ThemeForm div input {
+  margin: 0 1rem 0 2rem;
+}
+section article.mapPage ul li form div.responseForm p {
+  margin: 1rem 0 0 0;
+}
+section article.mapPage ul li form div.responseForm div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+section article.mapPage ul li form div.responseForm div input {
+  margin: 0 1rem 0 2rem;
+}
+section article.mapPage ul li form p:nth-child(4) {
+  color: crimson;
+}
+section article.mapPage ul li form img {
+  width: 25px;
+}
+section article.connect h2 {
+  padding: 1.2rem 0;
+  color: #f0f0f0;
+  background-color: #89ad87;
+}
+section article.connect p {
+  font-weight: 600;
+}
+section article.connect p.mandatory abbr {
+  color: crimson;
+}
+section article.connect form {
+  width: 90%;
+  margin: auto;
+}
+section article.connect form div fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #b3c455;
+  padding: 20px;
+  background: #dfeb92;
+  box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+  -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+}
+section article.connect form div fieldset legend {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background: #dfeb92;
+  border-radius: 5px 5px 0px 0px;
+  border-top: 1px solid #b3c455;
+  border-left: 1px solid #b3c455;
+  border-right: 1px solid #b3c455;
+  box-shadow: 0px -1px 2px #F1F1F1;
+  -moz-box-shadow: 0px -1px 2px #F1F1F1;
+  -webkit-box-shadow: 0px -1px 2px #F1F1F1;
+}
+section article.connect form div fieldset label {
+  line-height: 4rem;
+}
+section article.connect form div fieldset label abbr {
+  color: crimson;
+}
+section article.connect form div fieldset input {
+  width: 60%;
+  line-height: 3rem;
+  border: 1px solid #b3c455;
+  background-color: rgb(250, 250, 250);
+}
+section article.connect form div fieldset div label {
+  line-height: 3.5rem;
+}
+section article.connect form div.connectSubmit {
+  margin: 2rem 0;
+}
+section article.connect form div.connectSubmit button {
+  border-radius: 5px;
+  background-color: #d0ef23;
+  padding: 1rem 2rem;
+  color: #333333;
+}
+
+/*Shrinking for tablet*/
+@media (min-width: 768px) {
+  header {
+    height: 420px;
+  }
+  header div.bc-image {
+    height: 350px;
+  }
+
+  section h2.mapTitle {
+    margin-top: 2rem;
+  }
+  section h2.themeTitle {
+    margin-top: 2rem;
+  }
+  section h2.AdminTitle {
+    margin-top: 2rem;
+  }
+  section article.connect {
+    margin-top: 2rem;
+  }
+  section article.optimisationTheme {
+    padding: 2.3rem;
+  }
+  section article.optimisationTheme div {
+    float: left;
+  }
+  section article.optimisationTheme p:nth-child(6) {
+    text-align: left;
+  }
+  section article.optimisationTheme p:nth-child(7) {
+    text-align: left;
+  }
+  section article.optimisationTheme ul:nth-child(8) {
+    padding: 0 3rem;
+  }
+  section article.climateActsTheme {
+    padding: 2.3rem;
+  }
+  section article.climateActsTheme div {
+    float: right;
+  }
+  section article.naturalsAreasTheme {
+    padding: 2.3rem;
+  }
+  section article.naturalsAreasTheme div {
+    float: left;
+  }
+  section article.mapPage ul#geoCacheList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  section article.mapPage ul#geoCacheList li {
+    width: 40%;
+    margin: 0 auto 1rem;
+  }
+  section article.admin article.addTeam div.addTeam-form form {
+    margin: auto;
+  }
+}
+@media (min-width: 960px) {
+  header {
+    height: 45rem;
+  }
+  header div.inner-header div.logo {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

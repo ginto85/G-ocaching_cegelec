@@ -1,0 +1,17 @@
+{
+    "name": "sever/geocaching_cegelec",
+    "autoload": {
+        "psr-4": {
+            "Sever\\GeocachingCegelec\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gregory rameaux",
+            "email": "gregory.rameaux@3wa.io"
+        }
+    ],
+    "require": {
+        "ifsnop/mysqldump-php": "^2.9"
+    }
+}

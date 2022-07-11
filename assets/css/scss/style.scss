@@ -1,0 +1,1334 @@
+// BACKGROUND-COLOR
+$bcg-primary: #b3c455;
+$title1bcg: #89ad87;
+$title2bcg: #c0d24d;
+$bcg-secondary: #dfeb92;
+$bcg-thirdary: #d0ef23;
+$bcg-fourthary: #e8c518;
+//TEXT-COLOR
+$text-color: #f0f0f0;
+$text2-color: #333333;
+$text3-color: rgb(16, 218, 26);
+$textred-color: crimson;
+
+// SHADOW COLOR
+$text-shadow: rgb(77, 75, 75);
+$article-shadow: #97bf0d;
+// BORDER COLOR
+$border-color: rgb(22, 21, 21);
+$border2-color: rgb(16, 218, 26);
+$border3-color: #b1acac;
+
+/* TOOL */
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  body {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto;
+    line-height: 2rem;
+
+    .container {
+      max-width: 1024px;
+      margin: auto;
+    }
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+
+/*CSS for Wave Header*/
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: $text2-color;
+  font-weight: 600;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
+
+.content {
+  height: 30vh;
+}
+
+/*HEADER */
+header {
+
+  height: 30rem;
+
+  div.bc-image {
+    width: 100%;
+    height: 20rem;
+    background-color: $bcg-primary;
+    background-image: url('../img/visuel5b.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  nav {
+    width: 100%;
+    height: 5rem;
+    background-color: $bcg-primary;
+    margin: 0 0 0.5rem 0;
+
+    ul {
+      padding: 1rem;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      justify-content: space-around;
+      background-color: $bcg-primary;
+
+      li {
+        padding: 0.5rem 0.7rem;
+        background-color: $title1bcg;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+
+        a {
+
+          color: whitesmoke;
+          border-radius: 5px;
+          text-decoration: none;
+          font-size: 1rem;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+
+}
+
+
+section {
+
+  // title THEMES page 
+  h2.themeTitle {
+    line-height: 4.2rem;
+    color: $text-color;
+    background-color: $title1bcg;
+    margin-top: 2rem;
+  }
+
+  // title ADMIN page 
+  h2.AdminTitle {
+    line-height: 4.2rem;
+    color: $text-color;
+    background-color: $title1bcg;
+    margin-top: 2rem;
+  }
+
+  h2.mapTitle {
+    line-height: 4.2rem;
+    color: $text-color;
+    background-color: $title1bcg;
+    margin-top: 2rem;
+  }
+
+  // first paragraph THEMES page 
+  p.themeParagraph {
+    margin: 0 2rem;
+  }
+
+  // Article Themes page 
+  article {
+
+    h3 {
+      color: $text-color;
+      text-shadow:
+        -1px 0 $text2-color,
+        0 1px $text2-color,
+        1px 0 $text2-color,
+        0 -1px $text2-color;
+      border-radius: 5px;
+      background-color: $bcg-thirdary;
+      border: solid 1px $border3-color;
+      line-height: 2.6rem;
+      margin: 1rem 1rem;
+      letter-spacing: 0.2rem;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 0 1rem 0;
+
+      li {
+        text-align: left;
+
+        p {
+          em {
+            color: $text3-color;
+            font-weight: 900;
+            text-shadow: 1px 0 0 $text2-color,
+              -1px 0 0 $border-color,
+              0 1px 0 $text2-color,
+              0 -1px 0 $text2-color,
+              1px 1px $text2-color,
+              -1px -1px 0 $text2-color,
+              1px -1px 0 $text2-color,
+              -1px 1px 0 $text2-color;
+            ;
+          }
+        }
+      }
+    }
+  }
+
+  // Article Presentation
+  article.presentation {
+
+    h1 {
+      padding: 1.2rem 0;
+      font-weight: 700;
+      color: $text-color;
+      background-color: $title1bcg;
+    }
+
+    ul.rules {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        width: 30%;
+        margin: 0.3em;
+        border-radius: 15px;
+        background: linear-gradient(145deg, #cacaca, $text-color);
+        box-shadow: 13px 13px 14px $text-shadow;
+
+        h2 {
+          font-size: 1em;
+          text-align: center;
+          margin: auto;
+          padding: 0.5em;
+        }
+
+        img.imagesRules {
+          width: 60%;
+          display: block;
+          margin: 0 auto 1rem auto;
+
+        }
+      }
+    }
+
+
+  }
+
+  // Article Description
+  article.descriptionGame {
+
+    h2 {
+      line-height: 4rem;
+      background-color: $title2bcg;
+      color: $text-color;
+    }
+
+
+    p {
+      line-height: 2.5rem;
+      margin: 1rem 0;
+      font-weight: 600;
+
+      strong {
+        color: $textred-color;
+      }
+
+      img {
+        width: 1em;
+      }
+
+      a {
+        color: $textred-color;
+      }
+    }
+
+    ol {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin: 1rem 0;
+
+        a {
+          color: $textred-color;
+        }
+
+        img {
+          width: 25px;
+        }
+
+
+      }
+
+      li:last-child {
+
+        line-height: 2.5rem;
+        font-weight: 600;
+
+      }
+    }
+
+    // div.bee {
+    //   background-color: $bcg-fourthary ;
+    // }
+  }
+
+  article.updateGeocache {
+    h3 {
+      line-height: 4rem;
+      background-color: $title1bcg;
+      color: rgb(241, 236, 236);
+      text-shadow: -1px 0 $text2-color,
+        0 1px $text2-color,
+        1px 0 $text2-color,
+        0 -1px $text2-color;
+    }
+
+    div {
+      button.currentPosition {
+        border-radius: 5px;
+        background-color: $bcg-primary;
+        padding: 0.5rem 0.5rem;
+        color: $text-color;
+        margin: 0.5rem 0.5rem;
+        text-shadow: -1px 0 $text2-color,
+          0 1px $text2-color,
+          1px 0 $text2-color,
+          0 -1px $text2-color;
+      }
+    }
+
+    div.updateGeoCache-form {
+      width: 90%;
+      margin: auto;
+
+      form {
+        width: 90%;
+        align-items: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        margin: 0px 0px 10px 0px;
+        border: 1px solid $border-color;
+        padding: 20px;
+        background: $bcg-secondary;
+        box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+        -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+        -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+
+        div {
+          display: flex;
+          flex-direction: column;
+          margin: 0.5rem 3rem;
+
+          input {
+            background-color: rgb(232, 240, 254);
+            padding: 0.5rem 0;
+          }
+        }
+
+        div.teamAssignForm {
+
+          margin: 1rem auto;
+
+          p {
+            margin: 0 0 1rem 0;
+
+            img {
+              width: 25px;
+            }
+          }
+
+          select {
+            width: 60%;
+            text-align: center;
+            background-color: rgb(232, 240, 254);
+            padding: 0.5rem 0;
+            margin: auto;
+          }
+        }
+
+        div.themeForm {
+          margin: 1rem auto;
+
+          select {
+            padding: 0.5rem 0;
+            text-align: center;
+            background-color: rgb(232, 240, 254);
+          }
+
+        }
+
+        div.allResponseForm {
+
+          margin: 0;
+
+          p {
+            margin-top: 0;
+
+            img {
+              width: 25px;
+            }
+          }
+
+          div {
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            margin: 1rem 0;
+
+            label {
+              margin: 0 1rem 0 0;
+            }
+          }
+
+          div:last-child {
+            flex-wrap: wrap;
+
+            p {
+              width: 100%;
+            }
+
+            div {
+              padding: 0.5rem 1rem;
+              margin: 0.5rem auto;
+              background-color: rgba(0, 172, 193, 1);
+              color: $text-color;
+              border: 1px solid $border-color;
+              border-radius: 5px;
+
+              input {
+                margin: 0 0.5rem;
+              }
+            }
+          }
+        }
+
+        button {
+          border-radius: 5px;
+          background-color: $bcg-primary;
+          padding: 1rem 0.5rem;
+          color: $text-color;
+          margin: 0.5rem 0.5rem;
+          text-shadow: -1px 0 $text2-color,
+            0 1px $text2-color,
+            1px 0 $text2-color,
+            0 -1px $text2-color;
+        }
+      }
+    }
+  }
+
+  // Article Admin
+  article.admin {
+
+    div.admin__ajax {
+
+      div {
+        margin: 0 0 1rem 0;
+
+        h3 {
+          color: $text-color;
+          background-color: $bcg-thirdary;
+          margin: 1rem 0;
+
+        }
+      }
+
+      button {
+        border-radius: 5px;
+        background-color: $bcg-primary;
+        padding: 0.5rem 0.5rem;
+        color: $text2-color;
+        margin: 0.5rem 0.5rem;
+      }
+    }
+
+    div.choiceAdmin {
+      article.addTeam {
+        h2 {
+          line-height: 4rem;
+          background-color: $title1bcg;
+          color: $text-color ;
+          text-shadow: -1px 0 $text2-color,
+            0 1px $text2-color,
+            1px 0 $text2-color,
+            0 -1px $text2-color;
+        }
+
+        div.addTeam-form {
+          width: 90%;
+          margin: auto;
+        }
+
+        form {
+          width: 90%;
+          align-items: center;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          margin: 0px 0px 10px 0px;
+          border: 1px solid $border-color;
+          padding: 20px;
+          background: $bcg-secondary;
+          box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+          -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+          -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+
+          div {
+            display: flex;
+            flex-direction: column;
+            margin: 0.5rem 3rem;
+
+            input {
+              background-color: rgb(232, 240, 254);
+              padding: 0.5rem 0;
+            }
+          }
+
+          div:nth-child(4) {
+            width: 60%;
+            margin: 1rem auto;
+
+            select {
+              padding: 0.5rem 0;
+              text-align: center;
+              background-color: rgb(232, 240, 254);
+            }
+          }
+
+          div:last-child {
+            width: 60%;
+            margin: 1rem auto;
+
+            button {
+              border-radius: 5px;
+              background-color: $bcg-primary;
+              padding: 1rem 0.5rem;
+              color: $text-color;
+              margin: 0.5rem 0.5rem;
+            }
+
+          }
+        }
+
+      }
+
+      article.addGeocache {
+        h2 {
+          line-height: 4rem;
+          background-color: $title1bcg;
+          color: rgb(241, 236, 236);
+          text-shadow: -1px 0 $text2-color,
+            0 1px $text2-color,
+            1px 0 $text2-color,
+            0 -1px $text2-color;
+        }
+
+        div {
+          button.currentPosition {
+            border-radius: 5px;
+            background-color: $bcg-primary;
+            padding: 0.5rem 0.5rem;
+            color: $text-color;
+            margin: 0.5rem 0.5rem;
+            text-shadow: -1px 0 $text2-color,
+              0 1px $text2-color,
+              1px 0 $text2-color,
+              0 -1px $text2-color;
+          }
+        }
+
+        div.addGeoCache-form {
+          width: 90%;
+          margin: auto;
+
+          form {
+            width: 90%;
+            align-items: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            margin: 0px 0px 10px 0px;
+            border: 1px solid $border-color;
+            padding: 20px;
+            background: $bcg-secondary;
+            box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+
+            div {
+              display: flex;
+              flex-direction: column;
+              margin: 0.5rem 3rem;
+
+              input {
+                background-color: rgb(232, 240, 254);
+                padding: 0.5rem 0;
+              }
+            }
+
+            div.teamAssignForm {
+
+              margin: 1rem auto;
+
+              p {
+                margin: 0 0 1rem 0;
+
+                img {
+                  width: 25px;
+                }
+              }
+
+              select {
+                width: 60%;
+                text-align: center;
+                background-color: rgb(232, 240, 254);
+                padding: 0.5rem 0;
+                margin: auto;
+              }
+            }
+
+            div.themeForm {
+              margin: 1rem auto;
+
+              select {
+                padding: 0.5rem 0;
+                text-align: center;
+                background-color: rgb(232, 240, 254);
+              }
+
+            }
+
+            div.allResponseForm {
+
+              margin: 0;
+
+              p {
+                margin-top: 0;
+
+                img {
+                  width: 25px;
+                }
+              }
+
+              div {
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                margin: 1rem 0;
+
+                label {
+                  margin: 0 1rem 0 0;
+                }
+              }
+
+              div:last-child {
+                flex-wrap: wrap;
+
+                p {
+                  width: 100%;
+                }
+
+                div {
+                  padding: 0.5rem 1rem;
+                  margin: 0.5rem auto;
+                  background-color: rgba(0, 172, 193, 1);
+                  color: $text-color;
+                  border: 1px solid $border-color;
+                  border-radius: 5px;
+
+                  input {
+                    margin: 0 0.5rem;
+                  }
+                }
+              }
+            }
+
+            button {
+              border-radius: 5px;
+              background-color: $bcg-primary;
+              padding: 1rem 0.5rem;
+              color: $text-color;
+              margin: 0.5rem 0.5rem;
+              text-shadow: -1px 0 $text2-color,
+                0 1px $text2-color,
+                1px 0 $text2-color,
+                0 -1px $text2-color;
+            }
+          }
+        }
+      }
+
+      article.teamList {
+        h3 {
+          line-height: 4rem;
+          background-color: $title1bcg;
+          color: rgb(241, 236, 236);
+        }
+
+        div {
+
+          table {
+
+            width: 90%;
+            align-items: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border: 1px solid $border3-color;
+            background: $bcg-thirdary;
+            box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            margin: 3rem auto;
+
+            thead {
+              tr {
+                th {
+                  border: 1px solid $border3-color;
+                }
+              }
+            }
+
+            tbody {
+              tr {
+                td {
+                  border: 1px solid $border3-color;
+                  background-color: $bcg-secondary;
+                }
+              }
+            }
+          }
+
+        }
+
+
+
+      }
+
+      article.geocacheList {
+        div {
+          table {
+
+            width: 90%;
+            align-items: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border: 1px solid $border3-color;
+            background: $bcg-primary;
+            box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            margin: 3rem auto;
+
+            thead {
+              tr {
+                th {
+                  border: 1px solid $border3-color;
+                }
+              }
+            }
+
+            tbody {
+              tr {
+                td {
+                  border: 1px solid $border3-color;
+                  background-color: $bcg-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      article.update {
+        h3 {
+          line-height: 4rem;
+          background-color: $title1bcg;
+          color: rgb(241, 236, 236);
+          text-shadow: -1px 0 $text2-color,
+            0 1px $text2-color,
+            1px 0 $text2-color,
+            0 -1px $text2-color;
+        }
+
+        div.updateGeocache {
+          table {
+
+            width: 90%;
+            align-items: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border: 1px solid $border3-color;
+            background: $bcg-thirdary;
+            box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+            margin: 3rem auto;
+
+            thead {
+              tr {
+                th {
+                  border: 1px solid $border3-color;
+                }
+              }
+            }
+
+            tbody {
+              tr {
+                height: 4rem;
+
+                td {
+                  border: 1px solid $border3-color;
+                  background-color: $bcg-secondary;
+
+                  a {
+                    i {
+                      font-size: 3rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  // optimization  theme article
+  article.optimisationTheme {
+
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    padding: 1.2rem 1.2rem;
+    line-height: 2.5rem;
+    border: 2px solid $border3-color;
+    box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+    -webkit-box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+    -moz-box-shadow: 0px 0px 12px 12px #00b0f0 inset;
+
+
+
+    ul {
+      li {
+        p:first-letter {
+          font-size: 3rem;
+          vertical-align: top;
+          float: left;
+          padding-right: 0.5em;
+
+        }
+      }
+    }
+
+    p {
+      strong {
+        color: $textred-color;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  // climat theme article
+  article.climateActsTheme {
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    padding: 1.2rem 1.2rem;
+    line-height: 2.5rem;
+    border: 2px solid $border3-color;
+    box-shadow: 0px 0px 12px 12px #fb0540 inset;
+    -webkit-box-shadow: 0px 0px 12px 12px #fb0540 inset;
+    -moz-box-shadow: 0px 0px 12px 12px #fb0540 inset;
+
+
+    p {
+      strong {
+        color: $textred-color;
+        font-size: 2rem;
+      }
+    }
+
+    p:nth-child(6) {
+      margin-top: 1rem;
+      text-align: left;
+    }
+
+    ul {
+      padding: 0 0 0 1rem;
+
+      li {
+
+        p {
+          strong {
+            color: $textred-color;
+            font-size: 1.5rem;
+          }
+        }
+
+        p:first-letter {
+          font-size: 3rem;
+          vertical-align: top;
+          float: left;
+          padding-right: 0.5em;
+        }
+
+        ul {
+          padding: 0 0 0 1.5rem;
+
+          li {
+            p {
+
+              strong {
+                color: $textred-color;
+                font-size: 1.5rem;
+              }
+            }
+
+            p:first-letter {
+              font-size: 3rem;
+              vertical-align: top;
+              float: left;
+              padding-right: 0.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Naturals Areas article
+  article.naturalsAreasTheme {
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    padding: 1.2rem 1.2rem;
+    line-height: 2.5rem;
+    border: 2px solid $border3-color;
+    box-shadow: 0px 0px 12px 12px $article-shadow inset;
+    -webkit-box-shadow: 0px 0px 12px 12px $article-shadow inset;
+    -moz-box-shadow: 0px 0px 12px 12px $article-shadow inset;
+
+    p {
+
+      strong {
+        color: $textred-color;
+        font-size: 2rem;
+      }
+
+      em {
+        color: $text3-color;
+        font-weight: 900;
+        text-shadow: 1px 0 0 $text2-color,
+          -1px 0 0 $border-color,
+          0 1px 0 $text2-color,
+          0 -1px 0 $text2-color,
+          1px 1px $text2-color,
+          -1px -1px 0 $text2-color,
+          1px -1px 0 $text2-color,
+          -1px 1px 0 $text2-color;
+        ;
+      }
+    }
+
+  }
+
+  // Article Map page
+  article.mapPage {
+
+    div.userPosition {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: rgba(237, 20, 61, 0.4);
+      border: rgb(237, 20, 61) 1px solid;
+      z-index: 999;
+
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: $text-color;
+      background-color: $bcg-thirdary;
+      border-radius: 0;
+      margin: 1rem 0;
+      padding: 0.7rem 0;
+    }
+
+    ul {
+      margin: 1rem;
+
+
+      li {
+        text-align: center;
+        border: $border3-color 1px solid;
+        border-radius: 5px;
+        border: 2px solid $border3-color;
+        box-shadow: 0px 0px 12px 12px $article-shadow inset;
+        -webkit-box-shadow: 0px 0px 12px 12px $article-shadow inset;
+        -moz-box-shadow: 0px 0px 12px 12px $article-shadow inset;
+
+        margin-bottom: 1rem;
+        padding: 3rem;
+
+        button {
+          border-radius: 5px;
+          background-color: $bcg-primary;
+          padding: 0.5rem 0.5rem;
+          color: $text-color;
+          margin-bottom: 1rem;
+        }
+
+        button.close {
+          display: none
+        }
+
+
+        form {
+
+          display: none;
+
+          div.ThemeForm {
+            p {
+              font-weight: bolder;
+              margin: 1rem 0 0 0;
+            }
+
+            div {
+              display: flex;
+              margin-bottom: 1rem;
+
+              input {
+                margin: 0 1rem 0 2rem;
+              }
+            }
+          }
+
+          div.responseForm {
+            p {
+              margin: 1rem 0 0 0;
+            }
+
+            div {
+              display: flex;
+              margin-bottom: 1rem;
+
+              input {
+                margin: 0 1rem 0 2rem;
+              }
+            }
+          }
+
+          p:nth-child(4) {
+            color: $textred-color;
+          }
+
+
+          img {
+            width: 25px;
+          }
+
+
+        }
+      }
+    }
+
+  }
+
+  // Article Connect
+  article.connect {
+    h2 {
+      padding: 1.2rem 0;
+      color: $text-color;
+      background-color: $title1bcg;
+
+    }
+
+    p {
+      font-weight: 600;
+    }
+
+    p.mandatory {
+      abbr {
+        color: $textred-color;
+      }
+    }
+
+
+
+    form {
+      width: 90%;
+      margin: auto;
+
+      div {
+        fieldset {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          margin: 0px 0px 10px 0px;
+          border: 1px solid $bcg-primary;
+          padding: 20px;
+          background: $bcg-secondary;
+          box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+          -moz-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+          -webkit-box-shadow: inset 0px 0px 15px rgb(218, 222, 251);
+
+          legend {
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            background: $bcg-secondary;
+            border-radius: 5px 5px 0px 0px;
+            border-top: 1px solid $bcg-primary;
+            border-left: 1px solid $bcg-primary;
+            border-right: 1px solid $bcg-primary;
+            box-shadow: -0px -1px 2px #F1F1F1;
+            -moz-box-shadow: -0px -1px 2px #F1F1F1;
+            -webkit-box-shadow: -0px -1px 2px #F1F1F1;
+          }
+
+          label {
+            line-height: 4rem;
+
+            abbr {
+              color: $textred-color;
+            }
+          }
+
+          input {
+            width: 60%;
+            line-height: 3rem;
+            border: 1px solid $bcg-primary;
+            background-color: rgb(250, 250, 250);
+          }
+
+          div {
+            label {
+              line-height: 3.5rem;
+            }
+
+
+          }
+        }
+      }
+
+      div.connectSubmit {
+        margin: 2rem 0;
+
+        button {
+          border-radius: 5px;
+          background-color: $bcg-thirdary;
+          padding: 1rem 2rem;
+          color: $text2-color;
+        }
+
+      }
+    }
+  }
+}
+
+/*Shrinking for tablet*/
+@media (min-width: 768px) {
+
+  //Header
+  header {
+
+    height: 420px;
+
+    div.bc-image {
+      height: 350px;
+    }
+  }
+
+  // Section of all Pages
+  section {
+
+    h2.mapTitle {
+      margin-top: 2rem;
+    }
+
+    h2.themeTitle {
+      margin-top: 2rem;
+    }
+
+    h2.AdminTitle {
+      margin-top: 2rem;
+    }
+
+    article.connect {
+      margin-top: 2rem;
+    }
+
+    // Article optimisation on Theme Page
+    article.optimisationTheme {
+
+      padding: 2.3rem;
+
+      div {
+        float: left;
+      }
+
+      p:nth-child(6) {
+        text-align: left;
+
+      }
+
+      p:nth-child(7) {
+        text-align: left;
+
+      }
+
+      ul:nth-child(8) {
+        padding: 0 3rem;
+      }
+    }
+
+    // Article ClimateActs on Theme Page
+    article.climateActsTheme {
+
+      padding: 2.3rem;
+
+      div {
+        float: right;
+      }
+    }
+
+    // Article naturalsArea on Theme Page
+    article.naturalsAreasTheme {
+      padding: 2.3rem;
+
+      div {
+        float: left;
+      }
+    }
+
+    //article Map page
+    article.mapPage {
+
+      // List of geocaches
+      ul#geoCacheList {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+        // items list geocache
+        li {
+          width: 40%;
+          margin: 0 auto 1rem;
+        }
+      }
+    }
+
+    // article Admin Page
+    article.admin {
+
+      // article AddTeam
+      article.addTeam {
+        div.addTeam-form {
+
+          // form AddTeam
+          form {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 960px) {
+
+  //Header
+  header {
+
+    height: 45rem;
+
+    div.inner-header {
+
+      div.logo {
+
+        width: 300px;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+      }
+    }
+  }
+
+
+
+}
